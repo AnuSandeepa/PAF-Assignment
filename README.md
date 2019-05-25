@@ -1,9 +1,9 @@
 # PAF-Assignment
-Java Crud and db classes
+Java Crud and db classes  ::
 Online - Java Resources - src/main/resources
 
 
 
-HTML & JS
+HTML & JS  ::
 Online - src - main - recources - webapp
 	
