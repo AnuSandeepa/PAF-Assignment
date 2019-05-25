@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SellNBuy</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/validation.js"></script>
+
+</head>
+<body>
+	<div class="container">
+	<h2>Payment form</h2>
+	
+	<form id="registration" class="form-horizontal" action="#"> <!-- 2nd page linked -->
+	
+	
+	
+				<!-- ****************item id********************* -->	
+	<div class="form-group">
+	<label class="control-label col-sm-2"
+	for="text">Item ID </label>
+	<div class="col-sm-10">
+		<input type="itemid" class="form-control"
+		id="itemid" placeholder="Enter Item ID" name="itemid" required>
+	</div>
+</div>
+				<!-- ****************Order ID******************** -->
+	<div class="form-group">
+	<label class="control-label col-sm-2"
+	for="orderid">Order ID </label>
+	<div class="col-sm-10">
+		<input type="text" class="form-control"
+		id="orderid" placeholder="Enter Order ID" name="orderid" required>
+	</div>
+	
+				<!-- ****************Seller Acc No********************* -->	
+	<div class="form-group">
+	<label class="control-label col-sm-2"
+	for="selleraccno">seller Account No </label>
+	<div class="col-sm-10">
+		<input type="text" class="form-control"
+		id="selleraccno" placeholder="Enter Seller Account No" name="selleraccno" required>
+	</div>  	
+</div>
+
+				<!-- ****************Customer Acc No********************* -->	
+	<div class="form-group">
+	<label class="control-label col-sm-2"
+	for="customeraccno">Customer Account No </label>
+	<div class="col-sm-10">
+		<input type="text" class="form-control"
+		id="customeraccno" placeholder="Enter Customer Account No" name="customeraccno" required>
+	</div>  	
+</div>
+
+				<!-- ****************Saller Full Name********************* -->	
+	<div class="form-group">
+	<label class="control-label col-sm-2"
+	for="sellerfullname">Seller Full Name </label>
+	<div class="col-sm-10">
+		<input type="text" class="form-control"
+		id="sellerfullname" placeholder="Enter Seller Full Name" name="sellerfullname" required>
+	</div>  	
+</div>
+
+				<!-- ****************Customer Full Name********************* -->	
+	<div class="form-group">
+	<label class="control-label col-sm-2"
+	for="customerfullname">Customer Full Name </label>
+	<div class="col-sm-10">
+		<input type="text" class="form-control"
+		id="customerfullname" placeholder="Enter Customer Full Name" name="customerfullname" required>
+	</div>  	
+</div>
+
+				<!-- ****************Seller Bank********************* -->	
+	<div class="form-group">
+	<label class="control-label col-sm-2"
+	for="sellerbank">Seller Bank </label>
+	<div class="col-sm-10">
+		<input type="text" class="form-control"
+		id="sellerbank" placeholder="Enter Seller Bank" name="sellerbank" required>
+	</div>  	
+</div>
+
+				<!-- ****************Amount********************* -->	
+	<div class="form-group">
+	<label class="csontrol-label col-sm-2"
+	for="amount">Amount </label>
+	<div class="col-sm-10">
+		<input type="text" class="form-control"
+		id="amount" placeholder="Enter Amount" name="amount" required>
+	</div>  	
+</div>
+
+
+
+
+				<!-- ****************Sumbit********************* -->
+<div class="form-group">
+<div class="col-sm-offset-2 col-sm-10">
+<button type="submit" class="btn btn-primary">
+Submit</button>
+</div>
+</div>
+
+
+<script src="js/validation.js"></script>
+
+
+
+
+
+</form>
+
+</div>
+<hr>
+<script>
+$("#registration").validate();
+</script>
+</body>
+</html>
